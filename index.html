@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img class="logo" src="./assets/logo-alura.png" alt="Logo da Alura"></a>
+    </header>
+
+    <main>
+        <section>
+            <textarea class="input" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+
+            <div class="alerta">
+                <img src="./assets/icon-alerta.png" alt="Icon Exclamação">
+                <p> Apenas letras minúsculas e sem acento </p>
+            </div>
+            <button class="botao-criptografia" onclick="botaoCriptografar()">Criptografar</button>
+            <button class="botao-descriptografia" onclick="botaoDesincriptografar()" >Descriptografar</button>
+        </section>
+
+        <section>
+                <textarea class="mensagem" cols="40" rows="50"></textarea>
+                <button class="botao-copiar" id="copiar" onclick="botaoCopiar()">Copiar</button>
+                <img class="img-boneco" id="boneco" src="./assets/boneco-mensagem.png" alt="Imagem do boneco">
+                <img class="alerta-mensagem" src="./assets/alerta-mensagem.png" alt="Alerta nenhuma mensagem encontrada">
+        </section>
+
+    </main>
+    <footer>
+        <br>
+        <h3 class="rodape"> Desenvolvido por Gustavo Henrique</h1>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

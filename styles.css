@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fonte-principal: "Inter", sans-serif;
+    --darkblue300: #0A3871;
+}
+
+
+* {
+    background-color: #E9ECF8;
+}
+
+main {
+    display: flex;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.input {
+    border: none;
+    font-family: var(--fonte-principal);
+    color: var(--darkblue300);
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 48px;
+    width: 680px;
+    margin-left: 240px;
+    margin-top: 80px;
+    resize: none;
+    text-transform: lowercase;
+}
+
+::placeholder { color: var(--darkblue300); }
+    .input:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+    border: none;
+    color: #495057;
+    margin-left: 200px;
+    width: 350px;
+    height: 750px;
+    position: fixed;
+    resize: none;
+    font-family: var(--fonte-principal);
+    opacity: 1;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.alerta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #495057;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    margin-top: 250px;
+    margin-left: 240px;
+}
+
+.botao-criptografia {
+    text-decoration: none;
+    background: var(--darkblue300);
+    color: #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+    width: 328px;
+    gap: 8px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 240px;
+    border: 1px;
+    cursor: pointer
+}
+
+.botao-descriptografia {
+    text-decoration: none;
+    background-color: #D8DFE8;
+    color: var(--darkblue300);
+    border-radius: 24px;
+    border: 1px solid;
+    padding: 24px;
+    width: 328px;
+    gap: 8px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    margin-top: 16px;
+    margin-left: 240px;
+    cursor: pointer;
+}
+
+.rodape {
+    color: var(--darkblue300);
+    text-align: center;
+    font-family: var(--fonte-principal);
+    margin-top: 80px;
+}
+
+.botao-copiar {
+    width: 250px;
+    border: 1px solid;
+    color: var(--darkblue300);
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 275px;
+    margin-top: 665px;
+    position: absolute;
+    padding: 24px;
+    font-family: var(--fonte-principal);
+    visibility: hidden;
+}
+
+.img-boneco {
+    width: 15%;
+    margin-left: 250px;
+    margin-top: 110px;
+    opacity: 0.9;
+    background-color: #FFFFFF;
+    position: fixed;
+}
+
+.alerta-mensagem {
+    width: 15%;
+    margin-left: 250px;
+    margin-top: 400px;
+    opacity: 0.9;
+    background-color: #FFFFFF;
+    position: fixed;
+}   
